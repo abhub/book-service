@@ -1,0 +1,7 @@
+security.user.name=abdou
+security.user.password=abdou
+
+management.port=8081
+management.contextPath=/admin
+
+name= Spring boot application properties

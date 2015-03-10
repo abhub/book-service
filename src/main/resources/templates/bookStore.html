@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Demo book Store</title>
+</head>
+<body>
+
+<div th:each="b:${books}">
+	<div>
+		<span th:text="${b.id}"></span>
+		<span th:text="${b.title}"></span>
+		<span th:text="${b.category}"></span>
+		<span th:text="${b.author}"></span>
+		
+	</div>
+</div>
+</body>
+</html>
